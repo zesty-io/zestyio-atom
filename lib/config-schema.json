@@ -1,0 +1,12 @@
+
+{
+  "zestyPackageJSONName" : "zesty.json",
+	"zestyWhiteLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-z.png",
+	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
+	"apiEndpoints": {
+		"viewsGET" : "/web/views",
+		"viewPOST" : "/web/views",
+		"viewPUT" : "/web/views/VIEW_ZUID",
+		"viewPUTPUBLISH" : "/web/views/VIEW_ZUID?publish=true"
+	}
+}

@@ -1,12 +1,9 @@
 {
   "name": "zestyio-atom-plugin",
   "main": "./lib/zestyio-atom-plugin",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Connects to a Zesty.io Cloud Content Instance to read and write files.",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "zestyio-atom-plugin:toggle"
-  },
   "repository": "https://github.com/atom/zestyio-atom-plugin",
   "license": "MIT",
   "engines": {
