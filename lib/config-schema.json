@@ -5,9 +5,11 @@
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
 	"apiEndpoints": {
 		"viewsGET" : "/web/views",
+		"viewGET" : "/web/views/VIEW_ZUID",
 		"viewPOST" : "/web/views",
 		"viewPUT" : "/web/views/VIEW_ZUID",
 		"viewPUTPUBLISH" : "/web/views/VIEW_ZUID?publish=true",
-		"stylesheetsGET" : "/web/stylesheets"
+		"stylesheetsGET" : "/web/stylesheets",
+		"scriptsGET" : "/web/scripts"
 	}
 }
