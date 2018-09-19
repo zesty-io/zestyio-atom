@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Setup an Atom project to sync and write files to a Zesty.io Cloud Content Instance.",
   "keywords": ["zesty.io","headless","cms","parsley"],
-  "repository": "https://github.com/zestyio/zestyio-atom",
+  "repository": "https://github.com/zesty-io/zestyio-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
