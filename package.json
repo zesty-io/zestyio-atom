@@ -1,9 +1,14 @@
 {
   "name": "zestyio-atom",
   "main": "./lib/zestyio-atom-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Setup an Atom project to sync and write files to a Zesty.io Cloud Content Instance.",
-  "keywords": ["zesty.io","headless","cms","parsley"],
+  "keywords": [
+    "zesty.io",
+    "headless",
+    "cms",
+    "parsley"
+  ],
   "repository": "https://github.com/zesty-io/zestyio-atom",
   "license": "MIT",
   "engines": {
