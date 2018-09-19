@@ -1,10 +1,10 @@
 {
-  "name": "zestyio-atom-plugin",
+  "name": "zestyio-atom",
   "main": "./lib/zestyio-atom-plugin",
   "version": "0.0.1",
-  "description": "Syncs Atom project to a Zesty.io Cloud Content Instance to sync and write files, and build Parsley autocomplete references.",
+  "description": "Setup an Atom project to sync and write files to a Zesty.io Cloud Content Instance.",
   "keywords": ["zesty.io","headless","cms","parsley"],
-  "repository": "https://github.com/atom/zestyio-atom-plugin",
+  "repository": "https://github.com/atom/zestyio-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
