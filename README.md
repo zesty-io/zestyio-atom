@@ -14,3 +14,20 @@ Example contents to get started
 	"token": "ACCESS_TOKEN_FROM_ZESTY_IO"
 }
 ```
+
+### Todos for alpha launch
+
+* Stylesheet and Scripts Saving
+* Have tray load information on the file opened
+* Have tray load relative information on the model associated with the views
+* Have tray show a publish button for the file
+
+### Todos for beta launch
+
+* parsley code highlighting (mixed html + handlebars)
+*
+
+### Ideas
+
+* Sync File Content from Zesty.io to Local File on Opening
+	* Possibly check the file last edited and user who edited before writing to cloud to prevent collisions
