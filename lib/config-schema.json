@@ -2,6 +2,7 @@
   "zestyPackageJSONName" : "zesty.json",
 	"zestyWhiteLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-z.png",
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
+	"accountsAPIURL": "https://accounts.api.zesty.io/v1",
 	"apiEndpoints": {
 		"viewsGET" : "/web/views",
 		"viewGET" : "/web/views/VIEW_ZUID",
@@ -9,6 +10,7 @@
 		"viewPUT" : "/web/views/VIEW_ZUID",
 		"viewPUTPUBLISH" : "/web/views/VIEW_ZUID?publish=true",
 		"stylesheetsGET" : "/web/stylesheets",
-		"scriptsGET" : "/web/scripts"
+		"scriptsGET" : "/web/scripts",
+		"instanceGET" : "/instances/INSTANCE_ZUID"
 	}
 }
