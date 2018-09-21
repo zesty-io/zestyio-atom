@@ -3,6 +3,7 @@
 	"zestyWhiteLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-z.png",
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
 	"accountsAPIURL": "https://accounts.api.zesty.io/v1",
+	"previewURL": "https://PREVIEW_HASH-dev.preview.zestyio.com",
 	"apiEndpoints": {
 		"viewsGET" : "/web/views",
 		"viewGET" : "/web/views/VIEW_ZUID",

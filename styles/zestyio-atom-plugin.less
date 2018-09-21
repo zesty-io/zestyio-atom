@@ -4,7 +4,22 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.zestyio-atom-plugin {
+@dark-blue: #1B1F2C;
+@darker-blue: darken(@dark-blue, 5%);
+@parsley-green: #96C45B;
+@header-color: #CFDCFF;
+@white: #E5EAF9;
+@pure-white: #ffffff;
+@light-blue: #D9E2F4;
+@margin-left: 12px;
+@button-height: 40px;
 
 
+.zesty-tray {
+	height: 280px;
+	background: @dark-blue;
+	transition: height ease 250ms;
+	&.minimize{
+		height: 40px;
+	}
 }
