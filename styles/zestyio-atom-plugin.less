@@ -45,10 +45,12 @@
 
 // specific variables
 @headerHeight: 40px;
+@trayHeight: @headerHeight * 7;
+@trayFullHeight: @headerHeight * 14;
 @spacingMeasurement: 12px;
 
 .zesty-tray {
-	height: 280px;
+	height: @trayHeight;
 	background: @dark-blue;
 	transition: height ease 250ms;
 	&.minimize{
@@ -91,5 +93,56 @@
 		}
 
 	}
+	.wrapper{
+		display: flex;
+		height: @trayHeight - @headerHeight;
+
+		.leftContainer{
+			flex: 5;
+			height: auto;
+
+			padding: @spacingMeasurement;
+		}
+		.rightContainer{
+			flex: 1;
+			height: auto;
+			background: lighten(@dark-blue,3%);
+			background-image: linear-gradient(-90deg, lighten(@dark-blue,3%), lighten(@dark-blue,4%));
+			border-bottom: 1px @zesty-white solid;
+
+			.zestyTabs{
+				list-style: none;
+				padding: @spacingMeasurement @spacingMeasurement 0 0;
+
+				display: flex;
+				flex-direction: column;
+
+				.zestyTab{
+					//border:1px @zesty-tab-blue solid;
+					border-left: none;
+					flex: 1;
+					border-radius: 0 3px 5px 0px;
+					padding: @spacingMeasurement @spacingMeasurement;
+					margin: 0 0 (@spacingMeasurement / 2) 0;
+					color: @zesty-gray;
+
+					&.active {
+
+						background: @dark-blue;
+						color: @white;
+					}
+					&:hover {
+						cursor: pointer;
+						color: @white;
+					}
+
+
+				}
+			}
+
+
+		}
+	}
+
 
 }
