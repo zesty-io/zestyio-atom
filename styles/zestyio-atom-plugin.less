@@ -4,6 +4,37 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
+
+
+// Primaries
+@zesty-dark-blue: 		#1b202c;
+@zesty-tab-blue:		#697A91;
+@zesty-orange: 			#F17829;
+@zesty-red: 			rgb(230,74,23);
+//@zesty-green: 			#75BF43;
+@dev-theme: 			#77b250; //Developer & Parsley docs green
+@zesty-green: 			desaturate(#75BF43,10%);
+@zesty-blue: 			#497edf;
+@zesty-teal:			#6a9293;
+@zesty-white:			#eff5ff;
+
+// secondaries
+@zesty-light-blue: 		#C3CDDF;
+@zesty-field-blue:      #C7D4EA;
+@zesty-background-blue:	#D6E8F5;
+@zesty-grey: 			#5B667D;
+@zesty-gray: 			@zesty-grey;
+@zesty-light-grey:		#A7AFBF;
+@zesty-light-gray:		@zesty-light-grey;
+@nav-border-color: 		#3c465e;
+@zesty-tab-color:		darken(@zesty-grey,7%);
+@yellow-highlight:		#FFFDE2;
+@zesty-highlight: 		@yellow-highlight;
+@white:					#ffffff;
+@black:					#000000;
+@zesty-white-blue:		#f2f4fb;
+@zesty-blue-white:	@zesty-white-blue;
+
 @dark-blue: #1B1F2C;
 @darker-blue: darken(@dark-blue, 5%);
 @parsley-green: #96C45B;
@@ -11,15 +42,54 @@
 @white: #E5EAF9;
 @pure-white: #ffffff;
 @light-blue: #D9E2F4;
-@margin-left: 12px;
-@button-height: 40px;
 
+// specific variables
+@headerHeight: 40px;
+@spacingMeasurement: 12px;
 
 .zesty-tray {
 	height: 280px;
 	background: @dark-blue;
 	transition: height ease 250ms;
 	&.minimize{
-		height: 40px;
+		height: @headerHeight;
 	}
+
+	.header{
+		padding: 0px;
+		height: @headerHeight;
+		line-height: @headerHeight;
+		color: @white;
+		background: @darker-blue;
+
+		.headerLogo{
+			margin: 8px @spacingMeasurement 0px 10px;
+			width: @spacingMeasurement * 2;
+		}
+		.alphaTag{
+			background: @zesty-orange;
+			color: @pure-white;
+			font-weight: 500;
+			border-radius: 3px;
+			padding: 3px (@spacingMeasurement / 2);
+			margin-left: @spacingMeasurement;
+		}
+
+	}
+
+	.header-item{
+		padding: 0px;
+		margin-right: @spacingMeasurement;
+		.instanceName {
+			margin-right: @spacingMeasurement;
+			color: @white;
+		}
+		.btn {
+			border: 1px solid @dark-blue;
+    	background-color: lighten(@dark-blue,2%);
+    	background-image: linear-gradient(lighten(@dark-blue,2%), lighten(@dark-blue,4%) );
+		}
+
+	}
+
 }
