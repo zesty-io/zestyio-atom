@@ -100,8 +100,28 @@
 		.leftContainer{
 			flex: 5;
 			height: auto;
-
 			padding: @spacingMeasurement;
+			overflow: hidden;
+
+			.scrollContainer{
+				position:relative;
+				overflow-y: scroll;
+				width: 103%;
+				height: @trayHeight - @headerHeight;
+
+				.zestyTabFrame {
+					position: absolute;
+					min-height: @trayHeight - @headerHeight;
+					width: 98%;
+					z-index: 1;
+					background: @dark-blue;
+
+					&.active {
+						z-index: 2;
+					}
+				}
+			}
+
 		}
 		.rightContainer{
 			flex: 1;
