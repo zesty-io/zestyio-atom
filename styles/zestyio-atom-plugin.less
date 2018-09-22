@@ -114,10 +114,12 @@
 					min-height: @trayHeight - @headerHeight;
 					width: 98%;
 					z-index: 1;
+					display: none;
 					background: @dark-blue;
 
 					&.active {
 						z-index: 2;
+						display: block;
 					}
 				}
 			}
