@@ -3,6 +3,7 @@
 	"zestyWhiteLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-z.png",
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
 	"accountsAPIURL": "https://accounts.api.zesty.io/v1",
+	"managerURL": "https://RANDOM_HASH.manage.zesty.io/",
 	"previewURL": "https://RANDOM_HASH-dev.preview.zestyio.com",
 	"apiEndpoints": {
 		"viewsGET" : "/web/views",
@@ -10,10 +11,15 @@
 		"viewPOST" : "/web/views",
 		"viewPUT" : "/web/views/VIEW_ZUID",
 		"viewPUTPUBLISH" : "/web/views/VIEW_ZUID?publish=true",
+    "modelsGET" : "/content/models",
 		"stylesheetsGET" : "/web/stylesheets",
 		"scriptsGET" : "/web/scripts",
 		"instanceGET" : "/instances/INSTANCE_ZUID",
 		"instanceUsersGET" : "/instances/INSTANCE_ZUID/users/roles"
+	},
+	"managerURLS" : {
+		"content": "/#!/content/CONTENT_ZUID",
+		"model": "/#!/config/ingredients/TYPE/MODEL_ZUID"
 	},
 	"accountsURLs": {
 		"instanceManagement" : "https://accounts.zesty.io/instances/INSTANCE_ZUID"
