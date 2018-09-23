@@ -23,5 +23,9 @@
 	},
 	"accountsURLs": {
 		"instanceManagement" : "https://accounts.zesty.io/instances/INSTANCE_ZUID"
+	},
+	"instantContent": {
+		"model" : "/-/instant/MODEL_ZUID.json",
+		"item" : "/-/instant/ITEM_ZUID.json"
 	}
 }
