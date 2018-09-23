@@ -12,7 +12,8 @@
 		"viewPUTPUBLISH" : "/web/views/VIEW_ZUID?publish=true",
 		"stylesheetsGET" : "/web/stylesheets",
 		"scriptsGET" : "/web/scripts",
-		"instanceGET" : "/instances/INSTANCE_ZUID"
+		"instanceGET" : "/instances/INSTANCE_ZUID",
+		"instanceUsersGET" : "/instances/INSTANCE_ZUID/users/roles"
 	},
 	"accountsURLs": {
 		"instanceManagement" : "https://accounts.zesty.io/instances/INSTANCE_ZUID"
