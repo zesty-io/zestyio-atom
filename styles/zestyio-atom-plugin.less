@@ -201,3 +201,49 @@
 		}
 	}
 }
+
+.zestyWelcome{
+	height: 400px;
+	width: 100%;
+	padding: 10px;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	background: @dark-blue;
+	border-radius: 5px;
+	border: 1px solid @zesty-orange;
+	box-shadow: 0px 0px 15px 16px #000, inset 0 0 150px 85px #000;
+
+	.onesAndZeros {
+		top:0;
+		right:0px;
+		left:0px;
+		bottom:0px;
+		position: absolute;
+		white-space: pre-wrap;
+		overflow-wrap: break-word;
+    word-wrap: break-word;
+		font-family: monaco;
+    letter-spacing: 3px;
+		color: @zesty-green;
+    opacity: .25;
+	}
+	.zLogo {
+		width: 400px;
+    position: absolute;
+    left: 87px;
+    top: 27px;
+	}
+	.zLoadingText {
+		position: absolute;
+		top: 350px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		text-align: center;
+		font-weight: 400;
+    font-size: 13px;
+		color: @zesty-light-gray;
+	}
+}

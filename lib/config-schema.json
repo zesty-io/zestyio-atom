@@ -1,6 +1,7 @@
 {
   "zestyPackageJSONName" : "zesty.json",
 	"zestyWhiteLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-z.png",
+	"zestyWhiteUprightLogo" : "https://storage.googleapis.com/assets-zesty/zesty-io-white-upright.png",
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
 	"accountsAPIURL": "https://accounts.api.zesty.io/v1",
 	"managerURL": "https://RANDOM_HASH.manage.zesty.io/",
