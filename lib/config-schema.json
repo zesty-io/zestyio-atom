@@ -13,6 +13,7 @@
 		"viewPUT" : "/web/views/VIEW_ZUID",
 		"viewPUTPUBLISH" : "/web/views/VIEW_ZUID?publish=true",
     "modelsGET" : "/content/models",
+		"itemsGET" : "/content/models/MODEL_ZUID/items/ITEM_ZUID",
 		"stylesheetsGET" : "/web/stylesheets",
 		"scriptsGET" : "/web/scripts",
 		"instanceGET" : "/instances/INSTANCE_ZUID",
