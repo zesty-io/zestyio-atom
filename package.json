@@ -1,7 +1,7 @@
 {
   "name": "zestyio-atom",
   "main": "./lib/zestyio-atom-plugin",
-  "version": "0.24.1",
+  "version": "0.25.0",
   "description": "Setup an Atom project to sync and write files to a Zesty.io Cloud Content Instance.",
   "keywords": [
     "zesty.io",
