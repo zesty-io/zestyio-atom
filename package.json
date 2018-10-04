@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "lodash.uniq": "^4.5.0",
-    "request": "^2.73.0"
+    "request": "^2.88.0",
+    "zestyio-api-wrapper": "git+https://github.com/zesty-io/zestyio-node-api-wrapper.git",
+    "zestyio-node-api-wrapper": "git+https://github.com/zesty-io/zestyio-node-api-wrapper.git"
   }
 }
