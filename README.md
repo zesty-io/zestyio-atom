@@ -7,7 +7,8 @@ This package will connect ATOM to your Zesty.io Content Instance. Files will be 
 * Any existing view, stylesheet, or script on a cloud instance will synchronize and become editable through ATOM
 * New files must be created through the Zesty.io manager editor interface
 * Javascript and Stylesheets will save to the cloud, but will not compile into the `main.css` or `main.js` files, to compile you must save a stylesheet or javascript file in the zesty.io manager editor interface (this will change)
-Update: October 4, 2018
+
+**Update: October 4, 2018**
 
 * This package now uses the open source node api wrapper for Zesty.io https://github.com/zesty-io/zestyio-node-api-wrapper
 * File creation is in the works, we plan to release this by Oct 8th
