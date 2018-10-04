@@ -1,6 +1,21 @@
 # !! Alpha: Not For Production Use
 
-Currently the Atom package will connect to your content instance and download all of the files. You can then edit the files and they will write directly to the development version of the file. To publish files you must be logged into the Zesty.io manager of that instance.
+This package will connect ATOM to your Zesty.io Content Instance. Files will be pulled down locally. You can then edit the files and they will write directly to the development version of the file. To publish files you must be logged into the Zesty.io manager of that instance.
+
+Update: October 4, 2018
+
+Functionality Notes
+
+* Any existing view, stylesheet, or script on a cloud instance will synchronize and become editable through ATOM
+* New files must be created through the Zesty.io manager editor interface
+* Javascript and Stylesheets will save to the cloud, but will not compile into the `main.css` or `main.js` files, to compile you must save a stylesheet or javascript file in the zesty.io manager editor interface (this will change)
+
+Update Notes
+
+* This package now uses the open source node api wrapper for Zesty.io https://github.com/zesty-io/zestyio-node-api-wrapper
+* File creation is in the works, we plan to release this by Oct 8th
+* Remote publishing is on its way, we plan to release this Oct 12th
+
 
 Please help us complete this package by submitting feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
 
@@ -27,9 +42,16 @@ This information can be accessed from the Zesty.io Manager Code Editor tab. From
 
 ### In the works for alpha
 
-* Have tray load information on the file opened
-* Have tray load relative information on the model associated with the views
+* [complete] Have tray load information on the file opened
+* [complete] Have tray load relative information on the model associated with the views
 * Have tray show a publish button for the file
+* Have tray show a synchronize button to get latest file code from the cloud
+* Have tray show the model fields relative to the file you are working on
+* Show relative stage preview URLs for each file
+
+### Planned for beta
+
+* Type ahead for Parsley models and fields
 
 ### Ideas
 
