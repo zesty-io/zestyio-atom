@@ -45,7 +45,7 @@ This information can be accessed from the Zesty.io Manager Code Editor tab. From
 * Have tray show a publish button for the file
 * Have tray show a synchronize button to get latest file code from the cloud
 * Have tray show the model fields relative to the file you are working on
-* Show relative stage preview URLs for each file
+* [complete] Show relative stage preview URLs for each file
 
 ### Planned for beta
 
