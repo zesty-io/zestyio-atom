@@ -42,18 +42,20 @@ To get started, you need a JSON object that looks like:
 
 This information can be accessed from the Zesty.io Manager Code Editor tab. From inside that tab, there is a link in the object helper tray labeled "external editing". Click that tray option for this file.
 
-### In the works for alpha
+### What gets us to beta
 
 * [complete] Have tray load information on the file opened
 * [complete] Have tray load relative information on the model associated with the views
 * [complete] Show relative stage preview URLs for each file
 * [complete] File creation for javascript and stylesheets
+* Have stylesheets and javascript compile in the cloud on save (currently you need to save in the web interface to trigger compilation)
 * Have tray show a publish button for the file
+* Have publish trigger a cache refresh/destroy
 * Have tray show a synchronize button to get latest file code from the cloud
 * Have tray show the model fields relative to the file you are working on
 
 
-### Planned for beta
+### Planned for post beta
 
 * Type ahead for Parsley models and fields
 
