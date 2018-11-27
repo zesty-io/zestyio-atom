@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "lodash.uniq": "^4.5.0",
-    "request": "^2.88.0",
     "zestyio-api-wrapper": "^0.1.5"
   }
 }
