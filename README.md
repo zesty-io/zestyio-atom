@@ -1,25 +1,32 @@
-# !! Alpha: Not For Production Use
+# Alpha: For Testing Only, Planned Beta for Jan 1st.
 
-This package will connect ATOM to your Zesty.io Content Instance. Files will be pulled down locally. You can then edit the files and they will write directly to the development version of the file. To publish files you must be logged into the Zesty.io manager of that instance.
+This package connects ATOM to your Zesty.io Content Instance. Files are be pulled down locally. A developer can then edit content instance files (views, css, javascript) and they write directly to the instance's development versions of the associated file. To publish files you must be logged into the Zesty.io manager of that instance.
 
 **Functionality Notes**
 
 * Any existing view, stylesheet, or script on a cloud instance will synchronize and become editable through ATOM
 * New files may be created from the local, and they will sync to the cloud content instance
 * Javascript and Stylesheets will save to the cloud, but will not compile into the `main.css` or `main.js` files, to compile you must save a stylesheet or javascript file in the zesty.io manager editor interface (this will change)
-
-**Update: October 10, 2018**
-
 * Javascript and CSS files can be created remotely from the local project, and will be synced to the cloud instance
-
-**Update: October 4, 2018**
-
 * This package now uses the open source node api wrapper for Zesty.io https://github.com/zesty-io/zestyio-node-api-wrapper
-* File creation is in the works, we plan to release this by Oct 8th
-* Remote publishing is on its way, we plan to release this Oct 12th
+* File creation is in the works from local
+* Tray loads relative stage URL to the view being edited
+* Stylesheets and javascript compile in the cloud on save (SASS, SCSS, LESS supported)
 
+### What still needs to be developed in beta (Post Jan 1)
 
-Please help us complete this package by submitting feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
+* Remote login screen (removes the need for juggling session tokens in zesty.json)
+* Have tray show a synchronize button to get latest file code from the cloud
+* Have tray show the model fields relative to the file you are working on
+
+### Planned for post production
+
+* Type ahead for Parsley models and fields to enmulate the expierence in 
+* Remote publishing button for views
+* Have tray show a publish button for the file
+* Have publish trigger a cache refresh/destroy
+
+Submit feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
 
 ---
 
@@ -41,25 +48,3 @@ To get started, you need a JSON object that looks like:
 ```
 
 This information can be accessed from the Zesty.io Manager Code Editor tab. From inside that tab, there is a link in the object helper tray labeled "external editing". Click that tray option for this file.
-
-### What gets us to beta
-
-* [complete] Have tray load information on the file opened
-* [complete] Have tray load relative information on the model associated with the views
-* [complete] Show relative stage preview URLs for each file
-* [complete] File creation for javascript and stylesheets
-* Have stylesheets and javascript compile in the cloud on save (currently you need to save in the web interface to trigger compilation)
-* Have tray show a publish button for the file
-* Have publish trigger a cache refresh/destroy
-* Have tray show a synchronize button to get latest file code from the cloud
-* Have tray show the model fields relative to the file you are working on
-
-
-### Planned for post beta
-
-* Type ahead for Parsley models and fields
-
-### Ideas
-
-* Sync File Content from Zesty.io to Local File on Opening
-	* Possibly check the file last edited and user who edited before writing to cloud to prevent collisions
