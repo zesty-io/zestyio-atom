@@ -1,20 +1,20 @@
 {
-  "zestyPackageJSONName" : "zesty.json",
+	"zestyPackageJSONName": "zesty.json",
 	"zestyWhiteLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-z.png",
-	"zestyWhiteUprightLogo" : "https://storage.googleapis.com/assets-zesty/zesty-io-white-upright.png",
+	"zestyWhiteUprightLogo": "https://storage.googleapis.com/assets-zesty/zesty-io-white-upright.png",
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
 	"accountsAPIURL": "https://accounts.api.zesty.io/v1",
 	"managerURL": "https://RANDOM_HASH.manage.zesty.io/",
 	"previewURL": "https://RANDOM_HASH-dev.preview.zestyio.com",
-	"managerURLS" : {
+	"managerURLS": {
 		"content": "/#!/content/CONTENT_ZUID",
 		"model": "/#!/config/ingredients/TYPE/MODEL_ZUID"
 	},
 	"accountsURLs": {
-		"instanceManagement" : "https://accounts.zesty.io/instances/INSTANCE_ZUID"
+		"instanceManagement": "https://accounts.zesty.io/instances/INSTANCE_ZUID"
 	},
 	"instantContent": {
-		"model" : "/-/instant/MODEL_ZUID.json",
-		"item" : "/-/instant/ITEM_ZUID.json"
+		"model": "/-/instant/MODEL_ZUID.json",
+		"item": "/-/instant/ITEM_ZUID.json"
 	}
 }
