@@ -1,4 +1,4 @@
-# Alpha: For Testing Only.
+# Atom Editor in Beta
 
 This package connects Atom to your Zesty.io Content Instance. Files are pulled down locally from the cloud to your computer. A developer can then edit content instance files (views, css, javascript) and save them directly to the instance's development versions of the associated file. To publish files you must be logged into the Zesty.io manager of that instance.
 
