@@ -13,6 +13,7 @@
 	"accountsURLs": {
 		"instanceManagement": "https://accounts.zesty.io/instances/INSTANCE_ZUID"
 	},
+	"authURL": "https://svc.zesty.io/auth",
 	"instantContent": {
 		"model": "/-/instant/MODEL_ZUID.json",
 		"item": "/-/instant/ITEM_ZUID.json"
