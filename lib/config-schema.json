@@ -8,7 +8,7 @@
 	"previewURL": "https://RANDOM_HASH-dev.preview.zestyio.com",
 	"managerURLS": {
 		"content": "/#!/content/CONTENT_ZUID",
-		"model": "/#!/config/ingredients/TYPE/MODEL_ZUID"
+		"model": "/#!/schema/MODEL_ZUID"
 	},
 	"accountsURLs": {
 		"instanceManagement": "https://accounts.zesty.io/instances/INSTANCE_ZUID"
