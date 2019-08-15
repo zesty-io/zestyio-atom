@@ -63,11 +63,21 @@
 		line-height: @headerHeight;
 		color: @white;
 		background: @darker-blue;
+		overflow: hidden;
 
 		.headerLogo{
 			margin: 8px @spacingMeasurement 0px 10px;
 			width: @spacingMeasurement * 2;
 		}
+		.versionTag {
+			background: @zesty-dark-blue;
+			color: @pure-white;
+			font-weight: 500;
+			border-radius: 3px;
+			padding: 3px (@spacingMeasurement / 2);
+			margin-left: @spacingMeasurement;
+		}
+
 		.alphaTag{
 			background: @zesty-orange;
 			color: @pure-white;
