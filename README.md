@@ -10,23 +10,28 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 * This package now uses the open source node api wrapper for Zesty.io https://github.com/zesty-io/zestyio-node-api-wrapper
 * Tray loads relative stage URL to the view being edited
 * Stylesheets and javascript compile in the cloud on save (SASS, SCSS, LESS supported)
+* Custom endpoints for xml,json, html, etc. can be created by making a new file in your views folder with an extension
 
 ### New in this Release
 
-Release 0.32.6 adds the following functionality:
+Release 0.37.0
 
-* Login support - users can now login to Zesty.io from within the Atom editor.  This includes support for uses using Authy two factor authentication both by manual entry of the 2FA code and through the use of the One Touch app
+* Endpoint and Snippet file creation
+* Endpoint, Snippet, and View file saving
+* Quick link to web engine urls for custom endpoints like JSON, xml files etc.
+* support for directories locally to map to custom endpoints, like `myweb.com/my/custom/file.json` is represented by a folder structure locally `/view/my/custom/` with a file named `file.json` in it
+* Better exposure of error codes / reasons should a save fail (for example when saving a less file with syntax errors that will not compile in the cloud successfully)
 
 ### What still needs to be developed in beta
 
 * Fix requirement to quit and reopen Atom to activate the plugin
 * Have tray show a synchronize button to get latest file code from the cloud
 * Have tray show the model fields relative to the file you are working on
-* Better exposure of error codes / reasons should a save fail (for example when saving a less file with syntax errors that will not compile in the cloud successfully)
+
 
 ### Planned for post production
 
-* Type ahead for Parsley models and fields to enmulate the expierence in 
+* Type ahead for Parsley models and fields to enmulate the expierence inline (see https://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/)
 * Remote publishing button for views
 * Have tray show a publish button for the file
 * Have publish trigger a cache refresh/destroy
