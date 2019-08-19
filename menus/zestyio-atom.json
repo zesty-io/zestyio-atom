@@ -1,0 +1,42 @@
+{
+    "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Zesty.io",
+          "submenu": [
+            {
+              "label": "Initialize Project",
+              "command": "zestyio-atom:initialize"
+            },
+            {
+                "label": "Login",
+                "command": "zestyio-atom:login"
+              },
+            {
+                "label": "Pull New Files",
+                "command": "zestyio-atom:pullAll"
+              },
+              {
+                "label": "Pull All Files and Overwrite",
+                "command": "zestyio-atom:pullAllOverwrite"
+              },
+              {
+                  "label": "Pull Single File",
+                  "command": "zestyio-atom:pullSingle"
+                }
+          ]
+        }
+      ]
+    }
+  ],
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Zesty.io Pull from Cloud",
+        "command": "zestyio-atom:pullSingle"
+      }
+    ]
+  }
+}

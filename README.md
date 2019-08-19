@@ -12,7 +12,18 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 * Stylesheets and javascript compile in the cloud on save (SASS, SCSS, LESS supported)
 * Custom endpoints for xml,json, html, etc. can be created by making a new file in your views folder with an extension
 
-### New in this Release
+### Release Notes
+
+Release 0.38.0
+
+* Removed arbritary dates in zesty.io
+* added instantiate call to dropdown menu
+* Functionality: pull latest file from cloud available (ctrl + alt + g), or right click zesty.io pull
+* Functionality: command to get new files avaialbe from dropdown or shortcut (ctrl + alt + a)
+* Functionality: dropdown menu option to get all files and overwrite the existing one
+* Functionality: login available from dropdown or shortcut (ctrl + alt + l)
+* UX: After an instance sync, file context updates
+
 
 Release 0.37.0
 
@@ -31,7 +42,7 @@ Release 0.37.0
 
 ### Planned for post production
 
-* Type ahead for Parsley models and fields to enmulate the expierence inline (see https://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/)
+* Type ahead for Parsley models and fields to enmulate the expierence inline (see https://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/ and https://github.com/lonekorean/atom-autocomplete-boilerplate/blob/master/lib/basic-provider.js)
 * Remote publishing button for views
 * Have tray show a publish button for the file
 * Have publish trigger a cache refresh/destroy
