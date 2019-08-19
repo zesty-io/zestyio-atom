@@ -14,12 +14,16 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
+Release 0.39.0
+
+* Initialize added, which creates a zesty.json file and prompts login
+
 Release 0.38.0
 
-* Removed arbritary dates in zesty.io
+* Removed arbitrary dates in zesty.io
 * added instantiate call to dropdown menu
 * Functionality: pull latest file from cloud available (ctrl + alt + g), or right click zesty.io pull
-* Functionality: command to get new files avaialbe from dropdown or shortcut (ctrl + alt + a)
+* Functionality: command to get new files available from dropdown or shortcut (ctrl + alt + a)
 * Functionality: dropdown menu option to get all files and overwrite the existing one
 * Functionality: login available from dropdown or shortcut (ctrl + alt + l)
 * UX: After an instance sync, file context updates
@@ -35,8 +39,8 @@ Release 0.37.0
 
 ### What still needs to be developed in beta
 
-* Fix requirement to quit and reopen Atom to activate the plugin
-* Have tray show a synchronize button to get latest file code from the cloud
+* ~~Fix requirement to quit and reopen Atom to activate the plugin~~
+* ~~Have tray show a synchronize button to get latest file code from the cloud~~ this is available by right clicking, using hte package dropdown, or shortcut ctrl + alt + g
 * Have tray show the model fields relative to the file you are working on
 
 
@@ -59,6 +63,8 @@ Syncs Atom project to a Zesty.io Cloud Content Instance to sync and write files,
 
 Create a directory and start an empty project in it. Then create a file in the root directory named `zesty.json`
 
+This file can be created by the plugin from the ATOM application dropdown Packages > Zesty.io > Initilize, or by using the key command shortcut (ctrl + alt + i)
+
 To get started, you need a JSON object that looks like:
 
 ```
@@ -67,6 +73,9 @@ To get started, you need a JSON object that looks like:
 	"token": "ACCESS_TOKEN_FROM_ZESTY_IO"
 }
 ```
+
+INSTANCE_ZUID_TO_CONNECT_TO can be found in accounts.zesty.io, when looking into your instance settings.
+
 
 This information can be accessed from the Zesty.io Manager Code Editor tab. From inside that tab, there is a link in the object helper tray labeled "external editing". Click that tray option for this file.
 
