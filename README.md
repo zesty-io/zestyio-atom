@@ -14,6 +14,11 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
+
+Release 0.40.0
+
+* Audit Trail (cloud file change history) is now available when editing each file under the file context.
+
 Release 0.39.0
 
 * Initialize added, which creates a zesty.json file and prompts login

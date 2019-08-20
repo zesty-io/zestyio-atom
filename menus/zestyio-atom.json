@@ -13,19 +13,19 @@
             {
                 "label": "Login",
                 "command": "zestyio-atom:login"
-              },
+            },
             {
                 "label": "Pull New Files",
                 "command": "zestyio-atom:pullAll"
-              },
-              {
+            },
+            {
                 "label": "Pull All Files and Overwrite",
                 "command": "zestyio-atom:pullAllOverwrite"
-              },
-              {
-                  "label": "Pull Single File",
-                  "command": "zestyio-atom:pullSingle"
-                }
+            },
+            {
+                "label": "Pull Single File",
+                "command": "zestyio-atom:pullSingle"
+            }
           ]
         }
       ]
