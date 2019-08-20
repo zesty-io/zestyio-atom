@@ -14,10 +14,12 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
-
 Release 0.40.0
 
-* Audit Trail (cloud file change history) is now available when editing each file under the file context.
+* Audit Trail (cloud file change history) is now available when editing each file under in file context tray.
+* Added clearer wording around file context
+* fixed external compile bug. When an external compile occured, the new file would be ovewritten by the active editor content.
+
 
 Release 0.39.0
 
