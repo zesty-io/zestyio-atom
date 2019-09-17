@@ -50,18 +50,17 @@ Release 0.37.0
 * support for directories locally to map to custom endpoints, like `myweb.com/my/custom/file.json` is represented by a folder structure locally `/view/my/custom/` with a file named `file.json` in it
 * Better exposure of error codes / reasons should a save fail (for example when saving a less file with syntax errors that will not compile in the cloud successfully)
 
-### What still needs to be developed in beta
+### Still to be developed in Beta
 
 * ~~Fix requirement to quit and reopen Atom to activate the plugin~~
 * ~~Have tray show a synchronize button to get latest file code from the cloud~~ this is available by right clicking, using hte package dropdown, or shortcut ctrl + alt + g
 * Have tray show the model fields relative to the file you are working on
-
+* Remote publishing button for views
+* Have tray show a publish button for the file
 
 ### Planned for post production
 
 * Type ahead for Parsley models and fields to enmulate the expierence inline (see https://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/ and https://github.com/lonekorean/atom-autocomplete-boilerplate/blob/master/lib/basic-provider.js)
-* Remote publishing button for views
-* Have tray show a publish button for the file
 * Have publish trigger a cache refresh/destroy
 
 Submit feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
