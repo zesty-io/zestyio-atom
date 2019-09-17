@@ -14,6 +14,12 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
+Release 0.42.0
+
+* Instance View to add ZUID to a set
+* Fixed login/instance ZUID input flow
+* Fixed bug when tokens were not referenced in memory correctly
+
 Release 0.40.0
 
 * Audit Trail (cloud file change history) is now available when editing each file under in file context tray.
