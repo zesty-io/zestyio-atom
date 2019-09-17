@@ -62,6 +62,7 @@ Release 0.37.0
 
 * Type ahead for Parsley models and fields to enmulate the expierence inline (see https://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/ and https://github.com/lonekorean/atom-autocomplete-boilerplate/blob/master/lib/basic-provider.js)
 * Have publish trigger a cache refresh/destroy
+* open old version of code from the cloud
 
 Submit feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
 
