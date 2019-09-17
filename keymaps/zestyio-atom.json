@@ -3,6 +3,8 @@
       "ctrl-alt-i": "zestyio-atom:initialize",
       "ctrl-alt-a": "zestyio-atom:pullAll",
       "ctrl-alt-g": "zestyio-atom:pullSingle",
-      "ctrl-alt-l": "zestyio-atom:login"
+      "ctrl-alt-l": "zestyio-atom:login"      
     }
 }
+
+//"ctrl-shift-g": "zestyio-atom:addInstanceZUID"

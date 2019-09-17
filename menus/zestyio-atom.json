@@ -11,7 +11,11 @@
               "command": "zestyio-atom:initialize"
             },
             {
-                "label": "Login",
+                "label": "Enter an Instance ZUID",
+                "command": "zestyio-atom:addInstanceZUID"
+            },
+            {
+                "label": "Login to Zesty.io",
                 "command": "zestyio-atom:login"
             },
             {
