@@ -14,10 +14,14 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
-Planned for Release 0.44.0
+Planned for Release 0.45.0
 
-* Pull down Button for Single File
 * Developer Token now store outside the zesty.json file, and in the atom editor
+
+
+Release 0.44.0
+
+* Pull down Button for Single File available in file context
 
 Release 0.43.0
 
