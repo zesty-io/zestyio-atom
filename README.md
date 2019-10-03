@@ -1,4 +1,4 @@
-# Atom Editor in Beta
+# Zesty.io Atom Editor Plugin
 
 This package connects Atom to your Zesty.io Content Instance. Files are pulled down locally from the cloud to your computer. A developer can then edit content instance files (views, css, javascript) and save them directly to the instance's development versions of the associated file. To publish files you must be logged into the Zesty.io manager of that instance.
 
@@ -14,11 +14,15 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
-Release 0.43.0
+Planned for Release 0.44.0
 
-* Publishing Button for Single File
 * Pull down Button for Single File
 * Developer Token now store outside the zesty.json file, and in the atom editor
+
+Release 0.43.0
+
+* Publishing Button for Single Javascript, View, or CSS File
+
 
 Release 0.42.0
 
@@ -59,15 +63,15 @@ Release 0.37.0
 ### Still to be developed in Beta
 
 * ~~Fix requirement to quit and reopen Atom to activate the plugin~~
-* ~~Have tray show a synchronize button to get latest file code from the cloud~~ this is available by right clicking, using hte package dropdown, or shortcut ctrl + alt + g
-* Have tray show the model fields relative to the file you are working on
-* Remote publishing button for views
-* Have tray show a publish button for the file
+* ~~Have tray show a synchronize button to get latest file code from the cloud~~ this is available by right clicking, using the package dropdown, or shortcut ctrl + alt + g
+* ~~Remote publishing button for views~~
+* ~~Have tray show a publish button for the file~~
+* ~~Have publish trigger a cache refresh/destroy~~
 
 ### Planned for post production
 
 * Type ahead for Parsley models and fields to enmulate the expierence inline (see https://codersblock.com/blog/creating-an-autocomplete-plug-in-for-atom/ and https://github.com/lonekorean/atom-autocomplete-boilerplate/blob/master/lib/basic-provider.js)
-* Have publish trigger a cache refresh/destroy
+* Have tray show the model fields relative to the file you are working on
 * open old version of code from the cloud
 
 Submit feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
