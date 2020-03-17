@@ -1,7 +1,7 @@
 {
   "name": "zestyio-atom",
   "main": "./lib/zestyio-atom-plugin",
-  "version": "0.45.0",
+  "version": "0.45.1",
   "description": "Setup an Atom project to sync and write files to a Zesty.io Cloud Content Instance.",
   "keywords": [
     "zesty.io",
@@ -17,7 +17,7 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "lodash.uniq": "^4.5.0",
-    "request": "^2.88.0",
-    "zestyio-api-wrapper": "0.2.3"
+    "request": "^2.88.2",
+    "zestyio-api-wrapper": "0.4.0"
   }
 }
