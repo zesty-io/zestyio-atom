@@ -14,9 +14,10 @@ This package connects Atom to your Zesty.io Content Instance. Files are pulled d
 
 ### Release Notes
 
-Planned for Release 0.45.0
+Release 0.46.0
 
-* Developer Token now store outside the zesty.json file, and in the atom editor
+* Developer Token can optionally be stored outside the zesty.json file, and in the atom editor zestyio settings
+* Better invalid session checking to trigger a login
 
 
 Release 0.44.0
@@ -64,13 +65,6 @@ Release 0.37.0
 * support for directories locally to map to custom endpoints, like `myweb.com/my/custom/file.json` is represented by a folder structure locally `/view/my/custom/` with a file named `file.json` in it
 * Better exposure of error codes / reasons should a save fail (for example when saving a less file with syntax errors that will not compile in the cloud successfully)
 
-### Still to be developed in Beta
-
-* ~~Fix requirement to quit and reopen Atom to activate the plugin~~
-* ~~Have tray show a synchronize button to get latest file code from the cloud~~ this is available by right clicking, using the package dropdown, or shortcut ctrl + alt + g
-* ~~Remote publishing button for views~~
-* ~~Have tray show a publish button for the file~~
-* ~~Have publish trigger a cache refresh/destroy~~
 
 ### Planned for post production
 
