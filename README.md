@@ -1,8 +1,37 @@
-# Zesty.io Atom Editor Plugin
+# Zesty.io Atom IDE Package
 
-This package connects Atom to your Zesty.io Content Instance. Files are pulled down locally from the cloud to your computer. A developer can then edit content instance files (views, css, javascript) and save them directly to the instance's development versions of the associated file. To publish files you must be logged into the Zesty.io manager of that instance.
+Use this package to connect the [Atom IDE](https://atom.io/) to your [Zesty.io Content Instance](https://zesty.org/content-instance). Files are synced to your local computer from a remote content instance. You can then edit content instance files (views, css, javascript) and save them directly to the instance's development versions of the associated file. To publish files you must be logged into the Zesty.io manager of that instance.
 
-**Functionality Notes**
+## Getting Started
+
+
+1. Create an empty directory for your instance.
+```bash
+mkdir mydomain.com
+```
+
+2. Create a file within your instance directory named `zesty.json`. 
+
+   a) This file can also be created by the package using the Atom application dropdown *Packages > Zesty.io > Initilize*, or by using the key command shortcut (*ctrl + alt + i*)
+
+3. Add the following JSON to the `zesty.json` file.
+```
+{
+	"instanceZUID": "INSTANCE_ZUID",
+	"token": "INSTANCE_TOKEN"
+}
+```
+
+4. In the `zesty.json` file replace `INSTANCE_ZUID` & `INSTANCE_TOKEN` with the values from your instance. *This information can be accessed from the Zesty.io Manager Code Editor tab. From inside that tab, there is a link in the object helper tray labeled "external editing". Click that tray option to find these values.*
+
+	a) You can also omit the `INSTANCE_TOKEN` and the package will provide an interative login to Zesty.io. This will also happen if the token becomes stale. The login process will manage writing the new access token to your `zesty.json` file.
+
+5. Restart Atom to trigger the instance sync.
+
+**Once syncing is completed you should see your instance code files in your Atom project file tree.**
+
+
+### Functionality Notes
 
 * Any existing view, stylesheet, or script on a cloud instance will synchronize and become editable through Atom
 * New files may be created from on the local machine, and they will sync to the cloud content instance
@@ -75,29 +104,3 @@ Release 0.37.0
 Submit feedback in the [zestyiodevs slack channel](https://chat.zesty.io/).
 
 ---
-
-## Zesty.io ATOM plugin
-
-Syncs Atom project to a Zesty.io Cloud Content Instance to sync and write files, and build Parsley autocomplete references.
-
-## How to use
-
-Create a directory and start an empty project in it. Then create a file in the root directory named `zesty.json`
-
-This file can be created by the plugin from the ATOM application dropdown Packages > Zesty.io > Initilize, or by using the key command shortcut (ctrl + alt + i)
-
-To get started, you need a JSON object that looks like:
-
-```
-{
-	"instanceZUID": "INSTANCE_ZUID_TO_CONNECT_TO",
-	"token": "ACCESS_TOKEN_FROM_ZESTY_IO"
-}
-```
-
-INSTANCE_ZUID_TO_CONNECT_TO can be found in accounts.zesty.io, when looking into your instance settings.
-
-
-This information can be accessed from the Zesty.io Manager Code Editor tab. From inside that tab, there is a link in the object helper tray labeled "external editing". Click that tray option for this file.
-
-You may now also omit the token and the plugin will ask you to login to Zesty.io interactively.  This will also now happen if the token becomes stale.  The login process will manage writing the new token to `zesty.json` for you.
