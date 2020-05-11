@@ -5,7 +5,7 @@
 	"instancesAPIURL": "https://INSTANCE_ZUID.api.zesty.io/v1",
 	"accountsAPIURL": "https://accounts.api.zesty.io/v1",
 	"managerURL": "https://RANDOM_HASH.manage.zesty.io/",
-	"previewURL": "https://RANDOM_HASH-dev.preview.zestyio.com",
+	"previewURL": "https://RANDOM_HASH-dev.preview.zesty.io",
 	"managerURLS": {
 		"content": "/#!/content/CONTENT_ZUID",
 		"model": "/#!/schema/MODEL_ZUID"
