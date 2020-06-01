@@ -18,6 +18,6 @@
     "fs": "0.0.1-security",
     "lodash.uniq": "^4.5.0",
     "request": "^2.88.2",
-    "zestyio-api-wrapper": "0.4.0"
+    "zestyio-api-wrapper": "^0.4.1"
   }
 }
