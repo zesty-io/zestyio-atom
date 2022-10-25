@@ -16,7 +16,7 @@ mkdir mydomain.com
 
 3. Create a file within your instance directory named `zesty.json`. 
 
-   a) This file can also be created by the package using the Atom application dropdown *Packages > Zesty.io > Initilize*, or by using the key command shortcut (*ctrl + alt + i*)
+   a) This file can also be created by the package using the Atom application dropdown *Packages > Zesty.io > Initialize*, or by using the key command shortcut (*ctrl + alt + i*)
 
 4. Add the following JSON to the `zesty.json` file.
 ```
